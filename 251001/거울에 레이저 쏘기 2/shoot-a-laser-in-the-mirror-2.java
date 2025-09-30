@@ -36,16 +36,16 @@ public class Main {
                     x -= 1;
                     return;
                 case 1:
-                    dir = 0;
-                    y += 1;
+                    dir = 2;
+                    y -= 1;
                     return;
                 case 2:
                     dir = 1;
                     x += 1;
                     return;
                 default:
-                    dir = 2;
-                    y -= 1;
+                    dir =0;
+                    y += 1;
                     return;
             }
         }
