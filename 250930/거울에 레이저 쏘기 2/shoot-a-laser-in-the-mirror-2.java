@@ -64,13 +64,13 @@ public class Main {
                 dir = 3; // 왼
                 return;
             case 2:
-                x = 3 * n - k;
+                x = 3 * n - 1 - k;
                 y = n - 1;
                 dir = 2; // 위
                 return;
             default:
                 x = 0;
-                y = 4 * n - k;
+                y = 4 * n - 1 - k;
                 dir = 1;
                 return; // 오
         }
