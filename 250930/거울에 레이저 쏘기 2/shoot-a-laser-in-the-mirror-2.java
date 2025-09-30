@@ -96,7 +96,7 @@ public class Main {
         
         int cnt = 0; // 튕기는 횟수
         while (inRange(x, y)){
-            move(board[x][y]);
+            move(board[y][x]);
             cnt++;
         }
         System.out.print(cnt);
