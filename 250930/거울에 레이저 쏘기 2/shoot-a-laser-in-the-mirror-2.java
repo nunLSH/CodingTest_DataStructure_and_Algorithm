@@ -70,7 +70,7 @@ public class Main {
                 return;
             default:
                 x = 0;
-                y = 3 * n - k;
+                y = 4 * n - k;
                 dir = 1;
                 return; // 오
         }
