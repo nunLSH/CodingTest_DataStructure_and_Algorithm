@@ -17,16 +17,16 @@ public class Main {
                     x += 1;
                     return;
                 case 1:
-                    dir = 2;
-                    y -= 1;
+                    dir = 0;
+                    y += 1;
                     return;
                 case 2:
                     dir = 3;
                     x -= 1;
                     return;
                 default:
-                    dir = 0;
-                    y += 1;
+                    dir = 2;
+                    y -= 1;
                     return;
             }
         } else { 
@@ -94,9 +94,9 @@ public class Main {
         k = sc.nextInt();
         calcStart(k); // 시작점 계산
         
-        int cnt = 1; // 튕기는 횟수
+        int cnt = 0; // 튕기는 횟수
         while (inRange(x, y)){
-            move(board[y][x]);
+            move(board[y][x]); 
             cnt++;
         }
         System.out.print(cnt);
