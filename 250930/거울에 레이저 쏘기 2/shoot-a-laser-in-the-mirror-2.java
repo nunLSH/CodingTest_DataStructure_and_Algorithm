@@ -52,7 +52,7 @@ public class Main {
     }
 
     public static void calcStart(int k){
-        switch(k / n){
+        switch((k-1) / n){
             case 0:
                 x = k - 1;
                 y = 0;
